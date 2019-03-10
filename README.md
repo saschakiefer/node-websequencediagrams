@@ -1,4 +1,5 @@
 Call the WebSequenceDiagram.com API.
+Enhanced with proxy settings to call from behind a firewall.
 
 ## Command Line
 
@@ -38,6 +39,9 @@ The callback takes an error, a Buffer, and a MIME type
 
 ### .root
 .root is the URL for the service, which defaults to "http://www.websequencediagrams.com".  It can be modified to suit your needs.
+
+### .proxy
+Object with host and port property.
 
 ### License
 This code is licensed under the [Apache Software License, 2.0](http://www.apache.org/licenses/LICENSE-2.0)
